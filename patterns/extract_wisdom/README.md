@@ -36,13 +36,13 @@ Cuando usas `extractwisdom`, extrae el siguiente contenido de la entrada:
 
 - `IDEAS`  
   - Extrae las mejores ideas del contenido, es decir, aquello sobre lo que podrías haber tomado notas si lo hicieras manualmente.
-- `QUOTES`  
+- `CITAS`  
   - Algunas de las mejores citas del contenido.
-- `REFERENCES`  
+- `REFERENCIAS`  
   - Escritos externos, arte y otros contenidos mencionados positivamente durante el contenido que podrían valer la pena explorar.
-- `HABITS`  
+- `HABITOS`  
   - Hábitos de los ponentes que podrían valer la pena replicar.
-- `RECOMMENDATIONS`  
+- `RECOMENDACIONES`  
   - Una lista de cosas que el contenido recomienda, incluyendo los hábitos de los ponentes.
 
 ### Casos de uso
