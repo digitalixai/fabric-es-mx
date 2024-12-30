@@ -65,7 +65,7 @@ Puedes referenciar el contenido **sistema** y **usuario** de `extractwisdom` dir
 curl -sS https://github.com/danielmiessler/fabric/blob/main/extract-wisdom/dmiessler/extract-wisdom-1.0.0/system.md
 ```
 
-### Pull the _user_ prompt directly
+### Jalar el prompt _user_  directamente
 
 ```sh
 curl -sS https://github.com/danielmiessler/fabric/blob/main/extract-wisdom/dmiessler/extract-wisdom-1.0.0/user.md
