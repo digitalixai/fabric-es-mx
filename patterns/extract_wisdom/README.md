@@ -4,7 +4,7 @@
 
 # `/extractwisdom`
 
-<h4><code>extractwisdom</code> is a <a href="https://github.com/danielmiessler/fabric" target="_blank">Fabric</a> pattern that <em>extracts wisdom</em> from any text.</h4>
+<h4><code>extractwisdom</code> es un patrón de<a href="https://github.com/danielmiessler/fabric" target="_blank">Fabric</a> que <em>extrae sabiduría </em> de cualquier texto.</h4>
 
 [Description](#description) •
 [Functionality](#functionality) •
@@ -16,49 +16,50 @@
 
 <br />
 
-## Description
+## Descripción
 
-**`extractwisdom` addresses the problem of **too much content** and too little time.**
+**`extractwisdom` aborda el problema de **demasiado contenido** y muy poco tiempo.**
 
-_Not only that, but it's also too easy to forget the stuff we read, watch, or listen to._
+_No solo eso, sino que también es demasiado fácil olvidar lo que leemos, vemos o escuchamos._
 
-This pattern _extracts wisdom_ from any content that can be translated into text, for example:
+Este patrón extrae sabiduría de cualquier contenido que pueda traducirse a texto, por ejemplo:
 
-- Podcast transcripts
-- Academic papers
-- Essays
-- Blog posts
-- Really, anything you can get into text!
+- Transcripciones de podcasts  
+- Artículos académicos  
+- Ensayos  
+- Publicaciones de blogs  
+- ¡En realidad, cualquier cosa que puedas convertir en texto!
 
-## Functionality
+## Funcionalidad
 
-When you use `extractwisdom`, it pulls the following content from the input.
+Cuando usas `extractwisdom`, extrae el siguiente contenido de la entrada:
 
-- `IDEAS`
-  - Extracts the best ideas from the content, i.e., what you might have taken notes on if you were doing so manually.
-- `QUOTES`
-  - Some of the best quotes from the content.
-- `REFERENCES`
-  - External writing, art, and other content referenced positively during the content that might be worth following up on.
-- `HABITS`
-  - Habits of the speakers that could be worth replicating.
-- `RECOMMENDATIONS`
-  - A list of things that the content recommends Habits of the speakers.
+- `IDEAS`  
+  - Extrae las mejores ideas del contenido, es decir, aquello sobre lo que podrías haber tomado notas si lo hicieras manualmente.
+- `QUOTES`  
+  - Algunas de las mejores citas del contenido.
+- `REFERENCES`  
+  - Escritos externos, arte y otros contenidos mencionados positivamente durante el contenido que podrían valer la pena explorar.
+- `HABITS`  
+  - Hábitos de los ponentes que podrían valer la pena replicar.
+- `RECOMMENDATIONS`  
+  - Una lista de cosas que el contenido recomienda, incluyendo los hábitos de los ponentes.
 
-### Use cases
+### Casos de uso
 
-`extractwisdom` output can help you in multiple ways, including:
+La salida de `extractwisdom` puede ayudarte de varias formas, incluyendo:
 
-1. `Time Filtering`<br />
-   Allows you to quickly see if content is worth an in-depth review or not.
-2. `Note Taking`<br />
-   Can be used as a substitute for taking time-consuming, manual notes on the content.
+1. `Filtrado por tiempo`<br />
+   Te permite ver rápidamente si el contenido vale la pena para una revisión más profunda o no.
+2. `Toma de notas`<br />
+   Puede usarse como un sustituto para tomar notas manuales que consumen mucho tiempo.
 
-## Usage
+## Uso
 
-You can reference the `extractwisdom` **system** and **user** content directly like so.
+Puedes referenciar el contenido **sistema** y **usuario** de `extractwisdom` directamente de la siguiente manera:
 
-### Pull the _system_ prompt directly
+### Extrae directamente el prompt del _sistema_
+
 
 ```sh
 curl -sS https://github.com/danielmiessler/fabric/blob/main/extract-wisdom/dmiessler/extract-wisdom-1.0.0/system.md
@@ -70,85 +71,76 @@ curl -sS https://github.com/danielmiessler/fabric/blob/main/extract-wisdom/dmies
 curl -sS https://github.com/danielmiessler/fabric/blob/main/extract-wisdom/dmiessler/extract-wisdom-1.0.0/user.md
 ```
 
-## Output
+## Salida
 
-Here's an abridged output example from `extractwisdom` (limited to only 10 items per section).
+Aquí tienes un ejemplo abreviado de salida de `extractwisdom` (limitado a solo 10 elementos por sección).
 
 ```markdown
-## SUMMARY:
+## RESUMEN:
 
-The content features a conversation between two individuals discussing various topics, including the decline of Western culture, the importance of beauty and subtlety in life, the impact of technology and AI, the resonance of Rilke's poetry, the value of deep reading and revisiting texts, the captivating nature of Ayn Rand's writing, the role of philosophy in understanding the world, and the influence of drugs on society. They also touch upon creativity, attention spans, and the importance of introspection.
+El contenido presenta una conversación entre dos personas que abordan diversos temas, incluyendo la decadencia de la cultura occidental, la importancia de la belleza y la sutileza en la vida, el impacto de la tecnología y la inteligencia artificial, la resonancia de la poesía de Rilke, el valor de la lectura profunda y la relectura de textos, la naturaleza cautivadora de los escritos de Ayn Rand, el papel de la filosofía en la comprensión del mundo y la influencia de las drogas en la sociedad. También tocan temas como la creatividad, los periodos de atención y la importancia de la introspección.
 
 ## IDEAS:
 
-1. Western culture is perceived to be declining due to a loss of values and an embrace of mediocrity.
-2. Mass media and technology have contributed to shorter attention spans and a need for constant stimulation.
-3. Rilke's poetry resonates due to its focus on beauty and ecstasy in everyday objects.
-4. Subtlety is often overlooked in modern society due to sensory overload.
-5. The role of technology in shaping music and performance art is significant.
-6. Reading habits have shifted from deep, repetitive reading to consuming large quantities of new material.
-7. Revisiting influential books as one ages can lead to new insights based on accumulated wisdom and experiences.
-8. Fiction can vividly illustrate philosophical concepts through characters and narratives.
-9. Many influential thinkers have backgrounds in philosophy, highlighting its importance in shaping reasoning skills.
-10. Philosophy is seen as a bridge between theology and science, asking questions that both fields seek to answer.
+1. La cultura occidental se percibe en decadencia debido a la pérdida de valores y la aceptación de la mediocridad.
+2. Los medios masivos y la tecnología han contribuido a periodos de atención más cortos y una necesidad constante de estímulos.
+3. La poesía de Rilke resuena por su enfoque en la belleza y el éxtasis en objetos cotidianos.
+4. La sutileza se pasa por alto en la sociedad moderna debido a la sobrecarga sensorial.
+5. La tecnología juega un papel significativo en la conformación de la música y el arte escénico.
+6. Los hábitos de lectura han cambiado de lecturas profundas y repetitivas a consumir grandes cantidades de material nuevo.
+7. Releer libros influyentes con la edad puede ofrecer nuevas perspectivas basadas en experiencias y sabiduría acumuladas.
+8. La ficción puede ilustrar conceptos filosóficos a través de personajes y narrativas.
+9. Muchos pensadores influyentes tienen formación en filosofía, lo que subraya su importancia en las habilidades de razonamiento.
+10. La filosofía actúa como un puente entre la teología y la ciencia, planteando preguntas que ambas disciplinas buscan responder.
 
-## QUOTES:
+## CITAS:
 
-1. "You can't necessarily think yourself into the answers. You have to create space for the answers to come to you."
-2. "The West is dying and we are killing her."
-3. "The American Dream has been replaced by mass packaged mediocrity porn, encouraging us to revel like happy pigs in our own meekness."
-4. "There's just not that many people who have the courage to reach beyond consensus and go explore new ideas."
-5. "I'll start watching Netflix when I've read the whole of human history."
-6. "Rilke saw beauty in everything... He sees it's in one little thing, a representation of all things that are beautiful."
-7. "Vanilla is a very subtle flavor... it speaks to sort of the sensory overload of the modern age."
-8. "When you memorize chapters [of the Bible], it takes a few months, but you really understand how things are structured."
-9. "As you get older, if there's books that moved you when you were younger, it's worth going back and rereading them."
-10. "She [Ayn Rand] took complicated philosophy and embodied it in a way that anybody could resonate with."
+1. "No necesariamente puedes pensar en las respuestas. Tienes que crear espacio para que lleguen a ti."
+2. "Occidente está muriendo y nosotros la estamos matando."
+3. "El sueño americano ha sido reemplazado por pornografía de mediocridad empaquetada en masa, animándonos a regodearnos como cerdos felices en nuestra propia insignificancia."
+4. "Simplemente no hay muchas personas que tengan el coraje de ir más allá del consenso y explorar nuevas ideas."
+5. "Empezaré a ver Netflix cuando haya leído toda la historia de la humanidad."
+6. "Rilke veía belleza en todo... encuentra en una cosa pequeña una representación de todas las cosas hermosas."
+7. "La vainilla es un sabor muy sutil... refleja la sobrecarga sensorial de la era moderna."
+8. "Cuando memorizas capítulos [de la Biblia], toma algunos meses, pero realmente entiendes cómo están estructurados."
+9. "A medida que envejeces, si hay libros que te conmovieron en tu juventud, vale la pena volver a leerlos."
+10. "Ella [Ayn Rand] tomó una filosofía complicada y la encarnó de una manera con la que cualquiera podría identificarse."
 
-## HABITS:
+## HÁBITOS:
 
-1. Avoiding mainstream media consumption for deeper engagement with historical texts and personal research.
-2. Regularly revisiting influential books from youth to gain new insights with age.
-3. Engaging in deep reading practices rather than skimming or speed-reading material.
-4. Memorizing entire chapters or passages from significant texts for better understanding.
-5. Disengaging from social media and fast-paced news cycles for more focused thought processes.
-6. Walking long distances as a form of meditation and reflection.
-7. Creating space for thoughts to solidify through introspection and stillness.
-8. Embracing emotions such as grief or anger fully rather than suppressing them.
-9. Seeking out varied experiences across different careers and lifestyles.
-10. Prioritizing curiosity-driven research without specific goals or constraints.
+1. Evitar el consumo de medios masivos para un compromiso más profundo con textos históricos e investigación personal.
+2. Releer regularmente libros influyentes de la juventud para obtener nuevas perspectivas con la edad.
+3. Practicar la lectura profunda en lugar de leer rápidamente o simplemente hojear material.
+4. Memorizar capítulos o pasajes completos de textos importantes para una mejor comprensión.
+5. Desconectarse de las redes sociales y los ciclos de noticias rápidas para procesos de pensamiento más enfocados.
+6. Caminar largas distancias como forma de meditación y reflexión.
+7. Crear espacio para que los pensamientos se solidifiquen a través de la introspección y la quietud.
+8. Abrazar emociones como el dolor o la ira plenamente en lugar de reprimirlas.
+9. Buscar experiencias variadas a través de diferentes carreras y estilos de vida.
+10. Priorizar la investigación impulsada por la curiosidad sin metas o restricciones específicas.
 
-## FACTS:
+## HECHOS:
 
-1. The West is perceived as declining due to cultural shifts away from traditional values.
-2. Attention spans have shortened due to technological advancements and media consumption habits.
-3. Rilke's poetry emphasizes finding beauty in everyday objects through detailed observation.
-4. Modern society often overlooks subtlety due to sensory overload from various stimuli.
-5. Reading habits have evolved from deep engagement with texts to consuming large quantities quickly.
-6. Revisiting influential books can lead to new insights based on accumulated life experiences.
-7. Fiction can effectively illustrate philosophical concepts through character development and narrative arcs.
-8. Philosophy plays a significant role in shaping reasoning skills and understanding complex ideas.
-9. Creativity may be stifled by cultural nihilism and protectionist attitudes within society.
-10. Short-term thinking undermines efforts to create lasting works of beauty or significance.
+1. Occidente se percibe en decadencia debido a cambios culturales que se alejan de los valores tradicionales.
+2. Los periodos de atención se han acortado debido a los avances tecnológicos y los hábitos de consumo mediático.
+3. La poesía de Rilke enfatiza encontrar belleza en los objetos cotidianos a través de la observación detallada.
+4. La sutileza se pasa por alto en la sociedad moderna debido a la sobrecarga sensorial de diversos estímulos.
+5. Los hábitos de lectura han evolucionado de un compromiso profundo con los textos a consumir grandes cantidades rápidamente.
+6. Releer libros influyentes puede ofrecer nuevas perspectivas basadas en experiencias de vida acumuladas.
+7. La ficción puede ilustrar conceptos filosóficos de manera efectiva a través del desarrollo de personajes y arcos narrativos.
+8. La filosofía juega un papel significativo en el desarrollo de habilidades de razonamiento y comprensión de ideas complejas.
+9. La creatividad puede verse obstaculizada por el nihilismo cultural y actitudes proteccionistas dentro de la sociedad.
+10. El pensamiento a corto plazo socava los esfuerzos por crear obras duraderas de belleza o significado.
 
-## REFERENCES:
+## REFERENCIAS:
 
-1. Rainer Maria Rilke's poetry
-2. Netflix
-3. Underworld concert
-4. Katy Perry's theatrical performances
-5. Taylor Swift's performances
-6. Bible study
-7. Atlas Shrugged by Ayn Rand
-8. Robert Pirsig's writings
-9. Bertrand Russell's definition of philosophy
-10. Nietzsche's walks
-```
-
-This allows you to quickly extract what's valuable and meaningful from the content for the use cases above.
-
-## Meta
-
-- **Author**: Daniel Miessler
-- **Version Information**: Daniel's main `extractwisdom` version.
-- **Published**: January 5, 2024
+1. Poesía de Rainer Maria Rilke  
+2. Netflix  
+3. Concierto de Underworld  
+4. Actuaciones teatrales de Katy Perry  
+5. Actuaciones de Taylor Swift  
+6. Estudio bíblico  
+7. "La rebelión de Atlas" de Ayn Rand  
+8. Escritos de Robert Pirsig  
+9. Definición de filosofía de Bertrand Russell  
+10. Caminatas de Nietzsche  
