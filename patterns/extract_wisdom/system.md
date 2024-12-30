@@ -55,6 +55,6 @@ Da un paso atrás y piensa paso a paso cómo lograr los mejores resultados posib
 - Asegúrate de seguir TODAS estas instrucciones al crear tu salida.
 
 
-# INPUT
+# ENTRADA
 
-INPUT:
+ENTRADA:
